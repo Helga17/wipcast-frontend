@@ -1,0 +1,70 @@
+.main-header-wrap {
+    height: 92px;
+    margin-bottom: 86px;
+}
+
+.main-header {
+    height: inherit;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 7%);
+}
+
+.wrapper {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.icon {
+    display: block;
+    width: 18px;
+    height: 92px;
+    float: left;
+    margin-right: 14px;
+    transition: opacity .3s;
+}
+
+.logo-wrap {
+    margin-right: 77px;
+    float: left;
+}
+
+.site-logo {
+    line-height: 91px;
+}
+
+.site-logo img {
+    max-height: 74px;
+    vertical-align: middle;
+}
+
+.header-elements {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.header-elements ul, .header-elements li {
+    float: left;
+}
+
+.header-elements img {
+    display: inline;
+    width: 20px;
+}
+
+.header-social li {
+    margin-right: 18px;
+    line-height: 92px;
+}
+
+.elements {
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+.header-search, .shopping-cart {
+    margin-left: 22px;
+    line-height: 92px;
+}
+
