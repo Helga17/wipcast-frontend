@@ -106,7 +106,6 @@ const Login = (props) => {
           return;
           // addToast('Щось пішло не так', { appearance: 'error', autoDismiss: true, autoDismissTimeout: 6000 });
         }
-        console.log(result, 'login');
         props.setUser(result.data.user);
         sessionStorage.setItem('user', JSON.stringify(result.data.user));
         localStorage.setItem('passport', result.data.access_token);

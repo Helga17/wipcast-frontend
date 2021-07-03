@@ -1,6 +1,4 @@
 import React from 'react';
-// import Nav from '../Nav/Nav';
-import './Header.css';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -151,31 +149,3 @@ Header.propTypes = {
 };
 
 export default Header;
-
-
-       // <div className="main-header-wrap">
-        //     <div className="main-header">
-        //         <div className="wrapper">
-        //             <span className="icon">:</span>
-        //             <div className="logo-wrap">
-        //                 <div className="site-logo">
-        //                     <img src="https://demos.promola.co.za/wipcast/wp-content/uploads/sites/6/2020/05/wipcast-logo.png" alt="logo" />
-        //                 </div>
-        //             </div>
-        //             <Nav />
-        //             <div className="header-elements">
-        //                 <div className="header-social">
-        //                     <ul>
-        //                         <li><img src="https://image.flaticon.com/icons/png/512/145/145812.png" alt="twitter" /></li>
-        //                         <li><img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" alt="facebook" /></li>
-        //                         <li><img src="https://image.flaticon.com/icons/png/512/174/174855.png" alt="instagram" /></li>
-        //                     </ul>
-        //                 </div>
-        //                 <ul className="elements">
-        //                     <li className="header-search"><img src="https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png" alt="search" /></li>
-        //                     <li className="shopping-cart"><img src="https://image.flaticon.com/icons/png/512/263/263142.png" alt="shopping cart" /></li>
-        //                 </ul>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </div>
